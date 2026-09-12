@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "random",
+      "request": "launch",
+      "mainClass": "Lab4.random",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "lab4q1",
+      "request": "launch",
+      "mainClass": "Lab4.lab4q1",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "lab4task3",
+      "request": "launch",
+      "mainClass": "Lab4.lab4task3",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "lab4task2",
+      "request": "launch",
+      "mainClass": "Lab4.lab4task2",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "lab4task1",
+      "request": "launch",
+      "mainClass": "Lab4.lab4task1",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "UserDefinedPrecedence",
+      "request": "launch",
+      "mainClass": "Lab2.UserDefinedPrecedence",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
