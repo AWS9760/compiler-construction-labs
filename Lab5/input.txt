@@ -1,0 +1,6 @@
+int total = 25;
+float average = total / 5;
+if (average > 10)
+{
+    total = total + 5;
+}

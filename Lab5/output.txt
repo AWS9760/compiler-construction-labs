@@ -1,0 +1,80 @@
+Line 1 KEYWORD int
+Line 1 IDENTIFIER main
+Line 1 DELIMITER (
+Line 1 DELIMITER )
+Line 2 DELIMITER {
+Line 3 KEYWORD int
+Line 3 IDENTIFIER total
+Line 3 ASSIGNMENT OPERATOR =
+Line 3 INTEGER 100
+Line 3 DELIMITER ;
+Line 4 KEYWORD float
+Line 4 IDENTIFIER average
+Line 4 ASSIGNMENT OPERATOR =
+Line 4 FLOAT 25.5
+Line 4 DELIMITER ;
+Line 6 KEYWORD if
+Line 6 DELIMITER (
+Line 6 IDENTIFIER total
+Line 6 RELATIONAL OPERATOR >=
+Line 6 INTEGER 50
+Line 6 DELIMITER )
+Line 7 DELIMITER {
+Line 8 IDENTIFIER total
+Line 8 ASSIGNMENT OPERATOR +=
+Line 8 INTEGER 10
+Line 8 DELIMITER ;
+Line 9 DELIMITER }
+Line 11 KEYWORD return
+Line 11 INTEGER 0
+Line 11 DELIMITER ;
+Line 12 DELIMITER }
+
+================ TOKEN TABLE ================
+Line   Lexeme         Token
+---------------------------------------------
+1      int            KEYWORD
+1      main           IDENTIFIER
+1      (              DELIMITER
+1      )              DELIMITER
+2      {              DELIMITER
+3      int            KEYWORD
+3      total          IDENTIFIER
+3      =              ASSIGNMENT
+3      100            INTEGER
+3      ;              DELIMITER
+4      float          KEYWORD
+4      average        IDENTIFIER
+4      =              ASSIGNMENT
+4      25.5           FLOAT
+4      ;              DELIMITER
+6      if             KEYWORD
+6      (              DELIMITER
+6      total          IDENTIFIER
+6      >=             RELATIONAL
+6      50             INTEGER
+6      )              DELIMITER
+7      {              DELIMITER
+8      total          IDENTIFIER
+8      +=             ASSIGNMENT
+8      10             INTEGER
+8      ;              DELIMITER
+9      }              DELIMITER
+11     return         KEYWORD
+11     0              INTEGER
+11     ;              DELIMITER
+12     }              DELIMITER
+
+================== SUMMARY ==================
+KEYWORD        : 5
+IDENTIFIER     : 5
+INTEGER        : 4
+FLOAT          : 1
+ARITHMETIC     : 0
+RELATIONAL     : 1
+LOGICAL        : 0
+ASSIGNMENT     : 3
+DELIMITER      : 12
+---------------------------------------------
+Total tokens   : 31
+Lexical errors : 0
