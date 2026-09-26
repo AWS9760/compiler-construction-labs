@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Task3ExtendedPropositional",
+      "request": "launch",
+      "mainClass": "Task3ExtendedPropositional",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "Task3",
+      "request": "launch",
+      "mainClass": "Task3",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "Task2",
+      "request": "launch",
+      "mainClass": "Task2",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "Task1",
+      "request": "launch",
+      "mainClass": "Task1",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
       "name": "Experiment3",
       "request": "launch",
       "mainClass": "Experiment3",
