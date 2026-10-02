@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "finalChallenge",
+      "request": "launch",
+      "mainClass": "Lab7.finalChallenge",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "task3",
+      "request": "launch",
+      "mainClass": "Lab7.task3",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "task2",
+      "request": "launch",
+      "mainClass": "Lab7.task2",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
+      "name": "task1",
+      "request": "launch",
+      "mainClass": "Lab7.task1",
+      "projectName": "Compiler Construction_1eba3d11"
+    },
+    {
+      "type": "java",
       "name": "Task3ExtendedPropositional",
       "request": "launch",
       "mainClass": "Task3ExtendedPropositional",
